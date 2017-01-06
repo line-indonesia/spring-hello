@@ -11,8 +11,8 @@ This repository demonstrates how to create a basic web application using Spring 
 > gradle bootRun
 
 * Use  
-> By default the server will serve at http://localhost:8080/
-> You can make the server greets your name by calling http://localhost:8080/hello?name=_\<your_name\>_
+    By default the server will serve at http://localhost:8080/
+    You can make the server greets your name by calling http://localhost:8080/hello?name=_\<your_name\>_
 
 
 ### How do I contribute? ###
