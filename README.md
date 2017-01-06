@@ -5,14 +5,23 @@ This repository demonstrates how to create a basic web application using Spring 
 ### How do I get set up? ###
 
 * Compile
-> gradle clean build
+ 
+    ```bash
+    $ gradle clean build
+    ```
 
 * Run Server
-> gradle bootRun
+
+    ```bash
+    $ gradle bootRun
+    ```
 
 * Use  
-    By default the server will serve at http://localhost:8080/
-    You can make the server greets your name by calling http://localhost:8080/hello?name=_\<your_name\>_
+    By default the server will serve at:
+    > http://localhost:8080/
+    
+    You can make the server greets your name by calling:
+    > http://localhost:8080/hello?name=\<your\_name\>
 
 
 ### How do I contribute? ###

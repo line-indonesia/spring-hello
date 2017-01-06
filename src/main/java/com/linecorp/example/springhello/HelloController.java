@@ -1,5 +1,5 @@
 
-package id.tanudjaja.example.hello;
+package com.linecorp.example.springhello;
 
 import java.time.LocalDateTime;
 import org.springframework.http.HttpStatus;
