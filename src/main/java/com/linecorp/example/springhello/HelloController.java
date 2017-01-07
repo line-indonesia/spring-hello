@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController
 {
     @RequestMapping(value="/hello", method=RequestMethod.GET)
-    public ResponseEntity<String> auth(
+    public ResponseEntity<String> hello(
         @RequestParam(value="name", required=false) String aName)
     {
         // compose head
