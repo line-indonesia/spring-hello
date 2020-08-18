@@ -1,5 +1,7 @@
 # spring-hello #
 
+[![codecov](https://codecov.io/gh/mrexmelle/spring-hello/branch/master/graph/badge.svg)](https://codecov.io/gh/mrexmelle/spring-hello)
+
 This repository demonstrates how to create a basic web application using Spring Framework.
 
 ### How do I get set up? ###
