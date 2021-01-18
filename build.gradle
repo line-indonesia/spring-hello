@@ -1,20 +1,7 @@
-apply plugin: 'java'
-apply plugin: 'org.springframework.boot'
-
-buildscript
-{
-	repositories
-	{
-		mavenCentral()
-	}
-
-	dependencies
-	{
-		classpath('org.springframework.boot:spring-boot-gradle-plugin:2.3.3.RELEASE')
-	}
+plugins {
+  id "java"
+  id "org.springframework.boot" version "2.4.2"
 }
-
-
 
 jar
 {
@@ -45,6 +32,6 @@ configure(distclean)
 
 dependencies
 {
-	compile('org.springframework.boot:spring-boot-starter-web:2.3.3.RELEASE')
-	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat:2.3.3.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-web:2.4.2')
+	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat:2.4.2')
 }
