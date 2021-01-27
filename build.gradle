@@ -30,6 +30,9 @@ configure(distclean)
 	description = 'Clean the build result and the .gradle directory'
 }
 
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.targetCompatibility = JavaVersion.VERSION_1_8
+
 dependencies
 {
 	compile('org.springframework.boot:spring-boot-starter-web:2.4.2')
